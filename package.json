@@ -26,6 +26,7 @@
   "homepage": "https://github.com/rameshrr/hl7receiver",
   "dependencies": {
     "debug": "^2.2.0",
-    "hl7js": "0.0.4"
+    "hl7js": "0.0.5",
+    "kalam": "0.0.4"
   }
 }

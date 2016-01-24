@@ -11,4 +11,19 @@
 
 var receiver = require(__dirname + '/../');
 
-receiver.initialize();
+/// Option 1
+//receiver.initialize();
+
+
+/// Option 2
+receiver.initialize({
+    port: 1337
+});
+
+
+/// Option 3
+//receiver.initialize([{
+//    port: 1337
+//}, {
+//    port: 1338
+//}]);
