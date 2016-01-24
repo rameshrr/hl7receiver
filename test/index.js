@@ -9,10 +9,6 @@
 
 'use strict';
 
-var Listener = require(__dirname + '/../');
+var receiver = require(__dirname + '/../');
 
-var listener = new Listener({
-    port: 1337
-});
-
-listener.createListener();
+receiver.initialize();
