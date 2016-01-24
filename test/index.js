@@ -9,7 +9,9 @@
 
 'use strict';
 
-var receiver = require(__dirname + '/../');
+var Receiver = require(__dirname + '/../');
+
+var receiver = new Receiver();
 
 /// Option 1
 //receiver.initialize();
@@ -27,3 +29,14 @@ receiver.initialize({
 //}, {
 //    port: 1338
 //}]);
+
+
+receiver.on('hl7', function (err, hl7Message) {
+    //console.log(err);
+    //console.log(hl7Message);
+
+    if (!err) {
+        /// Reading patient name
+        console.log('Patient name: ', hl7Message.segments[1][5]);
+    }
+});

@@ -9,5 +9,5 @@
 
 'use strict';
 
-var receiver = require(__dirname + '/lib/inbound-manager');
-module.exports = receiver;
+var Receiver = require(__dirname + '/lib/inbound-manager');
+module.exports = Receiver;
