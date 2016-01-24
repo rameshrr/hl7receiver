@@ -40,3 +40,7 @@ receiver.on('hl7', function (err, hl7Message) {
         console.log('Patient name: ', hl7Message.segments[1][5]);
     }
 });
+
+receiver.on('data', function (err, rawData) {
+    console.log(rawData);
+});
