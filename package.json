@@ -1,0 +1,31 @@
+{
+  "name": "hl7receiver",
+  "version": "0.0.1",
+  "description": "Node package to receive HL7 packets",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://rameshrr@github.com/rameshrr/hl7receiver.git"
+  },
+  "keywords": [
+    "hl7",
+    "hl7js",
+    "node",
+    "hl7",
+    "javascript",
+    "hl7"
+  ],
+  "author": "Ramesh R <ramesh.myoffice@gmail.com> (https://github.com/rameshrr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rameshrr/hl7receiver/issues"
+  },
+  "homepage": "https://github.com/rameshrr/hl7receiver",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "hl7js": "0.0.4"
+  }
+}
