@@ -1,6 +1,6 @@
 {
   "name": "hl7receiver",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node package to receive HL7 packets",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "dependencies": {
     "async": "^1.5.2",
     "debug": "^2.2.0",
-    "hl7js": "0.0.5",
+    "hl7js": "0.0.6",
     "kalam": "0.0.4"
   }
 }
